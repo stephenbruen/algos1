@@ -1,3 +1,18 @@
+// fronts
+
+class SLL {
+  constructor() {
+    this.head = null;
+  }
+
+  // other methods...
+
+  addFront(value) {
+    const newNode = { value, next: this.head };
+    this.head = newNode;
+    return this.head;
+  }
+}
 
 
 // display
