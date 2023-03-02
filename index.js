@@ -1,4 +1,22 @@
 
+
+// display
+
+class SLL {
+  constructor() {
+    this.head = null;
+  }
+
+  display() {
+    let currNode = this.head;
+    while (currNode !== null) {
+      console.log(currNode.value);
+      currNode = currNode.next;
+    }
+  }
+}
+
+
 const myArray = [2, 3, 4];
 const newValue = 1;
 
